@@ -149,11 +149,11 @@
       // 2) Цена (руб)
       devices.forEach(function(device) {
         var consumptionHeaderCell = document.createElement('th');
-        consumptionHeaderCell.textContent = 'Потребление (кВт⋅ч) Прибор ' + device.name;
+        consumptionHeaderCell.textContent = 'Потребление (кВт⋅ч)' + device.name;
         headerRow.appendChild(consumptionHeaderCell);
 
         var costHeaderCell = document.createElement('th');
-        costHeaderCell.textContent = 'Цена (руб) Прибор ' + device.name;
+        costHeaderCell.textContent = 'Цена (руб)' + device.name;
         headerRow.appendChild(costHeaderCell);
       });
 
